@@ -1,4 +1,4 @@
-Simulacion: unMundo (rel), nroSimulacion.
+﻿Simulacion: unMundo (rel), nroSimulacion.
 
 Mundo: colColonia (rel), colAlimento (rel), nombreMundo, *colPosicion.*
 
@@ -8,13 +8,13 @@ Colonia: colHormigas (rel), nombreColonia, unBotin (rel).
 
 Alimento: cantidadAlimento.
 
-Hormiga: nroHormiga, exterior, consumo
+Hormiga: nroHormiga, exterior, consumo, miColonia (rel)
 
 	Reina: cantMaximaComida (clase), poderGolpe, cantConsumida. 
 	
 	Obrera: colPosicion, trabajando, volviendo.
 
-	Exploradora: posicionHormigueroEnemigo, posicionAlimento, explorando, volviendo.
+	Exploradora: encontroHormigueroEnemigo, encontroAlimento, explorando, volviendo, listaCamino.
 
 	Guerrera: poderGolpe, comiendo, yendo, atacando, volviendo. //La wea belica.
 
