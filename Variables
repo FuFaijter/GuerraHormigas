@@ -12,7 +12,7 @@ Hormiga: nroHormiga, exterior, consumo, miColonia (rel)
 
 	Reina: cantMaximaComida (clase), poderGolpe, cantConsumida. 
 	
-	Obrera: colPosicion, trabajando, volviendo.
+	Obrera: colPosicion, trabajando, volviendo, yendo.
 
 	Exploradora: encontroHormigueroEnemigo, encontroAlimento, explorando, volviendo, listaCamino.
 
